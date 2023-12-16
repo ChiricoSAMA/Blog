@@ -7,6 +7,6 @@
 - Twitter：[@ChiRicoSAMA](https://twitter.com/ChiRicoSAMA)
 
 ## 最近更新
-- [hh](https://github.com/ChiricoSAMA/gg/issues/1)--2023-12-16
-## bug
-- [hh](https://github.com/ChiricoSAMA/gg/issues/1)--2023-12-16
+- [从此致世界的第一封信](https://github.com/ChiricoSAMA/Midnight_Blog/issues/2)--2023-12-16
+## good first issue
+- [从此致世界的第一封信](https://github.com/ChiricoSAMA/Midnight_Blog/issues/2)--2023-12-16
