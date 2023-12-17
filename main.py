@@ -9,13 +9,14 @@ from github import Github
 from lxml.etree import CDATA
 from marko.ext.gfm import gfm as marko
 
-MD_HEAD = """**<p align="center">[Midnight午夜](https://midnight.4everland.app)</p>**
+MD_HEAD = """**<p align="center">[Midnight午夜_Issues blog](https://github.com/ChiricoSAMA/Blog/)</p>**
 ====
 
-**<p align="center">ChiRicoSAMA‘s blog</p>**
+**<p align="center">记录日常生活的点滴</p>**
 
 ## 联系方式
 - Twitter：[@ChiRicoSAMA](https://twitter.com/ChiRicoSAMA)
+- E-mail：[ChiRicoSAMA@DUCK.COM](mailto:chiricosama@duck.com)
 """
 
 BACKUP_DIR = "backup"
