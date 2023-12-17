@@ -1,10 +1,11 @@
-**<p align="center">[Midnight午夜](https://midnight.4everland.app)</p>**
+**<p align="center">[Midnight午夜_Issues blog](https://github.com/ChiricoSAMA/Blog/)</p>**
 ====
 
-**<p align="center">ChiRicoSAMA‘s blog</p>**
+**<p align="center">记录日常生活的点滴</p>**
 
 ## 联系方式
 - Twitter：[@ChiRicoSAMA](https://twitter.com/ChiRicoSAMA)
+- E-mail：[ChiRicoSAMA@DUCK.COM](mailto:chiricosama@duck.com)
 
 ## 最近更新
 - [尝试把github issue上的blogpush到网站上](https://github.com/ChiricoSAMA/Blog/issues/4)--2023-12-17
