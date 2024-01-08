@@ -1,7 +1,7 @@
-**<p align="center">[Midnight午夜_Issues blog](https://github.com/ChiricoSAMA/Blog/)</p>**
+**<p align="center">[午夜Midnight_Issues blog](https://github.com/ChiricoSAMA/Blog/)</p>**
 ====
 
-**<p align="center">记录日常生活的点滴</p>**
+**<p align="center">又新又好的碎碎念[午夜Midnight非github网页版](https://midnight.4evevrland.app)</p>**
 
 ## 联系方式
 - Twitter：[@ChiRicoSAMA](https://twitter.com/ChiRicoSAMA)
@@ -9,10 +9,10 @@
 
 ## 最近更新
 - [The indigo blood](https://github.com/ChiricoSAMA/Blog/issues/10)--2024-01-07
-- [我真的对漫展有阴影](https://github.com/ChiricoSAMA/Blog/issues/9)--2024-01-01
 - [白毛小狗](https://github.com/ChiricoSAMA/Blog/issues/8)--2023-12-31
 - [红色双钻头](https://github.com/ChiricoSAMA/Blog/issues/7)--2023-12-31
 - [兮大普崩了属于是](https://github.com/ChiricoSAMA/Blog/issues/6)--2023-12-17
+- [成功了！！！！！（至此Blog搭建完毕）](https://github.com/ChiricoSAMA/Blog/issues/5)--2023-12-17
 ## 2023
 - [兮大普崩了属于是](https://github.com/ChiricoSAMA/Blog/issues/6)--2023-12-17
 - [成功了！！！！！（至此Blog搭建完毕）](https://github.com/ChiricoSAMA/Blog/issues/5)--2023-12-17
@@ -21,11 +21,8 @@
 - [从此致世界的第一封信](https://github.com/ChiricoSAMA/Blog/issues/2)--2023-12-16
 ## 2024
 - [The indigo blood](https://github.com/ChiricoSAMA/Blog/issues/10)--2024-01-07
-- [我真的对漫展有阴影](https://github.com/ChiricoSAMA/Blog/issues/9)--2024-01-01
 - [白毛小狗](https://github.com/ChiricoSAMA/Blog/issues/8)--2023-12-31
 - [红色双钻头](https://github.com/ChiricoSAMA/Blog/issues/7)--2023-12-31
-## 妈的烂事
-- [我真的对漫展有阴影](https://github.com/ChiricoSAMA/Blog/issues/9)--2024-01-01
 ## 开发日记
 - [成功了！！！！！（至此Blog搭建完毕）](https://github.com/ChiricoSAMA/Blog/issues/5)--2023-12-17
 - [尝试把github issue上的blogpush到网站上](https://github.com/ChiricoSAMA/Blog/issues/4)--2023-12-17
@@ -38,7 +35,6 @@
 ## 生活日记
 - [兮大普崩了属于是](https://github.com/ChiricoSAMA/Blog/issues/6)--2023-12-17
 ## 碎碎念
-- [我真的对漫展有阴影](https://github.com/ChiricoSAMA/Blog/issues/9)--2024-01-01
 - [兮大普崩了属于是](https://github.com/ChiricoSAMA/Blog/issues/6)--2023-12-17
 - [成功了！！！！！（至此Blog搭建完毕）](https://github.com/ChiricoSAMA/Blog/issues/5)--2023-12-17
 - [尝试把github issue上的blogpush到网站上](https://github.com/ChiricoSAMA/Blog/issues/4)--2023-12-17
