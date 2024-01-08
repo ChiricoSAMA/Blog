@@ -1,7 +1,8 @@
 **<p align="center">[午夜Midnight_Issues blog](https://github.com/ChiricoSAMA/Blog/)</p>**
 ====
 
-**<p align="center">又新又好的碎碎念[午夜Midnight非github网页版](https://midnight.4evevrland.app)</p>**
+**<p align="center">又新又好的碎碎念</p>**
+**<p align="center">[午夜Midnight非github网页版](https://midnight.4everland.app)</p>**
 
 ## 联系方式
 - Twitter：[@ChiRicoSAMA](https://twitter.com/ChiRicoSAMA)
