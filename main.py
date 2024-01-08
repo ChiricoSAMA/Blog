@@ -9,10 +9,10 @@ from github import Github
 from lxml.etree import CDATA
 from marko.ext.gfm import gfm as marko
 
-MD_HEAD = """**<p align="center">[Midnight午夜_Issues blog](https://github.com/ChiricoSAMA/Blog/)</p>**
+MD_HEAD = """**<p align="center">[午夜Midnight_Issues blog](https://github.com/ChiricoSAMA/Blog/)</p>**
 ====
 
-**<p align="center">记录日常生活的点滴</p>**
+**<p align="center">又新又好的碎碎念[午夜Midnight非github网页版](https://midnight.4evevrland.app)</p>**
 
 ## 联系方式
 - Twitter：[@ChiRicoSAMA](https://twitter.com/ChiRicoSAMA)
