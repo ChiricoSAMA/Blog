@@ -9,7 +9,7 @@
 - E-mail：[ChiRicoSAMA@DUCK.COM](mailto:chiricosama@duck.com)
 
 ## 最近更新
-- [无助](https://github.com/ChiricoSAMA/Blog/issues/13)--2024-01-18
+- [抑郁症](https://github.com/ChiricoSAMA/Blog/issues/13)--2024-01-18
 - [无助，想死](https://github.com/ChiricoSAMA/Blog/issues/12)--2024-01-18
 - [小・组・汇・报・大・成・功](https://github.com/ChiricoSAMA/Blog/issues/11)--2024-01-09
 - [The indigo blood](https://github.com/ChiricoSAMA/Blog/issues/10)--2024-01-07
@@ -21,7 +21,7 @@
 - [网站重写](https://github.com/ChiricoSAMA/Blog/issues/3)--2023-12-16
 - [从此致世界的第一封信](https://github.com/ChiricoSAMA/Blog/issues/2)--2023-12-16
 ## 2024
-- [无助](https://github.com/ChiricoSAMA/Blog/issues/13)--2024-01-18
+- [抑郁症](https://github.com/ChiricoSAMA/Blog/issues/13)--2024-01-18
 - [无助，想死](https://github.com/ChiricoSAMA/Blog/issues/12)--2024-01-18
 - [小・组・汇・报・大・成・功](https://github.com/ChiricoSAMA/Blog/issues/11)--2024-01-09
 - [The indigo blood](https://github.com/ChiricoSAMA/Blog/issues/10)--2024-01-07
@@ -32,7 +32,7 @@
 </details>
 
 ## 妈的烂事
-- [无助](https://github.com/ChiricoSAMA/Blog/issues/13)--2024-01-18
+- [抑郁症](https://github.com/ChiricoSAMA/Blog/issues/13)--2024-01-18
 - [无助，想死](https://github.com/ChiricoSAMA/Blog/issues/12)--2024-01-18
 ## 开发日记
 - [成功了！！！！！（至此Blog搭建完毕）](https://github.com/ChiricoSAMA/Blog/issues/5)--2023-12-17
