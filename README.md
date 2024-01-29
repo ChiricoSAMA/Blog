@@ -9,11 +9,11 @@
 - E-mail：[ChiRicoSAMA@DUCK.COM](mailto:chiricosama@duck.com)
 
 ## 最近更新
+- [MikuMikuDance初上手，试做品](https://github.com/ChiricoSAMA/Blog/issues/16)--2024-01-29
 - [电台、播客和我](https://github.com/ChiricoSAMA/Blog/issues/15)--2024-01-19
 - [情绪爆发](https://github.com/ChiricoSAMA/Blog/issues/14)--2024-01-19
 - [抑郁症](https://github.com/ChiricoSAMA/Blog/issues/13)--2024-01-18
 - [无助，想死](https://github.com/ChiricoSAMA/Blog/issues/12)--2024-01-18
-- [小・组・汇・报・大・成・功](https://github.com/ChiricoSAMA/Blog/issues/11)--2024-01-09
 ## 2023
 - [兮大普崩了属于是](https://github.com/ChiricoSAMA/Blog/issues/6)--2023-12-17
 - [成功了！！！！！（至此Blog搭建完毕）](https://github.com/ChiricoSAMA/Blog/issues/5)--2023-12-17
