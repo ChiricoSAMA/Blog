@@ -1,0 +1,255 @@
+<!doctype html>
+
+<html lang="zh-CN" class="mdui-theme-dark">
+
+<head>
+
+  <!-- meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" />
+  <meta name="renderer" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <!-- CDN -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/mdui@2.0.3/mdui.css" />
+  <link rel="stylesheet" href="css/home.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+  <link href='/AbrilFatface-Regular.ttf' rel='stylesheet'>
+  <!-- title -->
+  <title>Midnight | ChiRico's Blog</title>
+
+</head>
+
+<body class="fade">
+
+
+  <!-- drawer -->
+  <mdui-navigation-drawer close-on-overlay-click class="example-drawer drawer" id="drawer">
+
+    <!-- list -->
+    <a href=""><mdui-list>
+        <mdui-list-item rounded icon="home" href="index.html"
+          style="margin-left: 1rem;margin-right: 1rem;margin-top: 1rem;">
+          Home
+        </mdui-list-item>
+      </mdui-list></a>
+    <mdui-divider middle></mdui-divider>
+    <a href=""><mdui-list>
+        <mdui-list-item rounded icon="emoji_people" href="about_me.html" style="margin-left: 1rem;margin-right: 1rem;">
+          About me
+        </mdui-list-item>
+      </mdui-list></a>
+    <a href=""><mdui-list>
+        <mdui-list-item rounded icon="draw" href="/issue_per_label.html?label=涂鸦"
+          style="margin-left: 1rem;margin-right: 1rem;">
+          Pictures
+        </mdui-list-item>
+      </mdui-list></a>
+    <a href=""><mdui-list>
+        <mdui-list-item rounded icon="library_books" href="changelogs.html"
+          style="margin-left: 1rem;margin-right: 1rem;">
+          Changelogs
+        </mdui-list-item>
+      </mdui-list></a>
+    <a href=""><mdui-list>
+        <mdui-list-item rounded icon="rss_feed" href="feed.html" style="margin-left: 1rem;margin-right: 1rem;">
+          Feed
+        </mdui-list-item>
+      </mdui-list></a>
+  </mdui-navigation-drawer>
+
+
+  <!-- top bar -->
+  <mdui-top-app-bar style="position: sticky;" variant="large" scroll-behavior="shrink">
+    <mdui-button-icon icon="menu"></mdui-button-icon>
+    <mdui-top-app-bar-title id="title">
+      <div style=" color: rgb(var(--mdui-color-on-primary-container));"></div>
+    </mdui-top-app-bar-title>
+    <div style="flex-grow: 1"></div>
+    <mdui-dropdown trigger="hover">
+      <mdui-button-icon slot="trigger" icon="more_vert"></mdui-button-icon>
+      <mdui-menu>
+        <mdui-menu-item>
+          <a href="https://github.com/ChiricoSAMA/Midnight/issues">
+            Github issues
+          </a>
+        </mdui-menu-item>
+      </mdui-menu>
+    </mdui-dropdown>
+  </mdui-top-app-bar>
+  <br><br>
+
+  <!-- main blank-->
+  <mdui-layout>
+    <mdui-layout-item placement="left" class="example-layout-item" style="width: 5%"></mdui-layout-item>
+    <mdui-layout-item placement="right" class="example-layout-item" style="width: 5%"></mdui-layout-item>
+    <mdui-layout-main class="example-layout-main" style="min-height: 30px">
+
+      <!-- main -->
+      <div class="mdui-prose">
+        <div class="main">
+          <text id="instruction"></text>
+          <mdui-layout-item placement="right" class="example-layout-item" style="width: 20%"></mdui-layout-item>
+          <div id="content" style="margin-top:50px;margin-bottom: 50px">
+          </div>
+        </div>
+        
+    </mdui-layout-main>
+
+    <!--loading-->
+    <div style="margin: 30px;">
+      <div id="loader-wrapper">
+        <div id="loader">
+        </div>
+        <div class="loader-section section-left">
+        </div>
+        <div class="loader-section section-right">
+        </div>
+      </div>
+    </div>
+  </mdui-layout>
+  <mdui-divider></mdui-divider>
+  <div>
+  </div>
+
+</body>
+
+<script src="https://utteranc.es/client.js"
+        repo="chiricosama/blog"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/gitblog.js"></script>
+
+<script src="https://unpkg.com/mdui@2.0.3/mdui.global.js"></script>
+
+<script type="text/javascript">
+
+  /* drawer */
+  const navigationDrawer = document.getElementsByTagName("mdui-navigation-drawer")[0];
+  const btn = document.getElementsByTagName("mdui-button-icon")[0];
+  var menu = true;
+  btn.onclick = function () {
+    if (menu) {
+      navigationDrawer.open = true;
+      menu = false;
+    } else {
+      navigationDrawer.open = false;
+      menu = true;
+    }
+  }
+
+  /* loading */
+  document.onreadystatechange = completeLoading;
+  function completeLoading() {
+    if (document.readyState == "complete") {
+      document.getElementById('loader-wrapper').style.display = "none";
+    }
+    else {
+      document.getElementById('loader-wrapper').style.display = "block";
+    }
+  }
+
+
+</script>
+<script>
+  (function(){
+    setTimeout(function() {
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    }, 500);
+    setInterval(function() {
+      MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }, 500);
+  })()
+</script>
+<script>var CURSOR;
+
+  Math.lerp = (a, b, n) => (1 - n) * a + n * b;
+
+  const getStyle = (el, attr) => {
+    try {
+      return window.getComputedStyle
+        ? window.getComputedStyle(el)[attr]
+        : el.currentStyle[attr];
+    } catch (e) { }
+    return "";
+  };
+
+  class Cursor {
+    constructor() {
+      this.pos = { curr: null, prev: null };
+      this.pt = [];
+      this.create();
+      this.init();
+      this.render();
+    }
+
+    move(left, top) {
+      this.cursor.style["left"] = `${left}px`;
+      this.cursor.style["top"] = `${top}px`;
+    }
+
+    create() {
+      if (!this.cursor) {
+        this.cursor = document.createElement("div");
+        this.cursor.id = "cursor";
+        this.cursor.classList.add("hidden");
+        document.body.append(this.cursor);
+      }
+
+      var el = document.getElementsByTagName('*');
+      for (let i = 0; i < el.length; i++)
+        if (getStyle(el[i], "cursor") == "pointer")
+          this.pt.push(el[i].outerHTML);
+
+      document.body.appendChild((this.scr = document.createElement("style")));
+      this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto}`;
+    }
+
+    refresh() {
+      this.scr.remove();
+      this.cursor.classList.remove("hover");
+      this.cursor.classList.remove("active");
+      this.pos = { curr: null, prev: null };
+      this.pt = [];
+
+      this.create();
+      this.init();
+      this.render();
+    }
+
+    init() {
+      document.onmouseover = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");
+      document.onmouseout = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");
+      document.onmousemove = e => { (this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = { x: e.clientX - 8, y: e.clientY - 8 }; this.cursor.classList.remove("hidden"); };
+      document.onmouseenter = e => this.cursor.classList.remove("hidden");
+      document.onmouseleave = e => this.cursor.classList.add("hidden");
+      document.onmousedown = e => this.cursor.classList.add("active");
+      document.onmouseup = e => this.cursor.classList.remove("active");
+    }
+
+    render() {
+      if (this.pos.prev) {
+        this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);
+        this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);
+        this.move(this.pos.prev.x, this.pos.prev.y);
+      } else {
+        this.pos.prev = this.pos.curr;
+      }
+      requestAnimationFrame(() => this.render());
+    }
+  }
+
+  (() => {
+    CURSOR = new Cursor();
+    // 需要重新获取列表时，使用 CURSOR.refresh()
+  })();
+
+</script>
+
+</html>
